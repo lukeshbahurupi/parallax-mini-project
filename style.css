@@ -1,0 +1,102 @@
+ /* Styling the body */
+ * {
+    margin: 1px;
+    padding:0px;
+}
+
+/* styling the first parallax's
+   height, width and background color */
+   .parallax-1{
+    width: 100%;
+    height: 600px;
+    background-image: url("https://images.pexels.com/photos/544268/pexels-photo-544268.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size:110% 100%;
+    background-attachment: fixed;
+    
+   }
+   /* styling the title of first parallax */
+   .parallax-1 h2 {
+    margin: auto;
+    position: relative;
+    left:50px;
+    right:130px;
+    top: 350px;
+    width: 250px;
+    height: 32px;
+    padding: 8px;
+    border-style: ridge;
+    border: 5px inset #f0f0f0;
+    background-color: rgb(246 243 243 / 41%);
+    color:  #f0f0f0;
+    text-align: center;
+   }
+   /* styling the second parallax's height, width and background color */
+   .parallax-2 {
+    width: 100%;
+    height: 600px;
+    background-image: url("https://images.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+   }
+   
+   /* styling the title of second parallax  */
+   .parallax-2 h2 {
+    margin: auto;
+    position: relative;
+    left: 50px;
+    top: 40px;
+    width: 250px;
+    height: 37px;
+    padding: 10px;
+    border: 5px inset grey;
+    background-color: #5600ff42;
+    color: #f0f0f0;
+    text-align: center;
+    font-size: 30px;
+    font-family: verdana;
+   }
+   .parallax-3{
+    background-image: url("https://images.pexels.com/photos/73873/star-clusters-rosette-nebula-star-galaxies-73873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+   }
+   .parallax-3 h2{
+    margin: auto;
+    position: relative;
+    left: 50px;
+    top: 40px;
+    width: 250px;
+    height: 37px;
+    padding: 10px;
+    border: 5px inset grey;
+    background-color:  #5600ff30;
+    color: #f0f0f0;
+    color: rgb(252, 252, 252);
+    text-align: center;
+    font-size: 30px;
+    font-family: verdana;
+   }
+
+   /* styling the content or paragraph  */
+   .para-1 {
+    padding: 80px;
+    background-color: #ffb409;
+    color: black;
+    font-size: 20px;
+    border: 5px inset grey;
+}
+   
+
+   /* styling the content or paragraph */
+   .para-2 {
+    text-align: center;
+    padding:25px;
+    font-size:17px;
+    font-family: verdana;
+    background-color:   #ffb409;
+    color:black;
+    border: 2px solid black;
+   }
